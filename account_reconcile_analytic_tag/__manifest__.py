@@ -12,5 +12,6 @@
     "maintainers": ["victoralmau"],
     "data": [
         "views/account_bank_statement_line_views.xml",
+        "views/account_reconcile_model_views.xml",
     ],
 }
