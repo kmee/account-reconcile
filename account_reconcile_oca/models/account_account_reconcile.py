@@ -166,8 +166,8 @@ class AccountAccountReconcile(models.Model):
             lines = self._get_reconcile_line(
                 self.env["account.move.line"].browse(line_id),
                 "other",
-                True,
-                max_amount,
+                is_counterpart=True,
+                max_amount=max_amount,
                 move=True,
             )
             new_data["data"] += lines

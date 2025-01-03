@@ -228,7 +228,7 @@ class AccountBankStatementLine(models.Model):
                 reconcile_auxiliary_id, lines = self._get_reconcile_line(
                     self.add_account_move_line_id,
                     "other",
-                    True,
+                    is_counterpart=True,
                     max_amount=currency.round(pending_amount),
                     move=True,
                 )
@@ -429,7 +429,7 @@ class AccountBankStatementLine(models.Model):
         self._onchange_manual_reconcile_vals()
 
     def _get_manual_reconcile_vals(self):
-        return {
+        vals = {
             "name": self.manual_name,
             "partner_id": self.manual_partner_id
             and self.manual_partner_id.name_get()[0]
@@ -442,6 +442,18 @@ class AccountBankStatementLine(models.Model):
             "debit": self.manual_amount if self.manual_amount > 0 else 0.0,
             "analytic_distribution": self.analytic_distribution,
         }
+        if self.manual_line_id:
+            vals.update(
+                {
+                    "currency_amount": self.manual_line_id.currency_id._convert(
+                        self.manual_amount,
+                        self.manual_in_currency_id,
+                        self.company_id,
+                        self.manual_line_id.date,
+                    ),
+                }
+            )
+        return vals
 
     @api.onchange(
         "manual_account_id",
