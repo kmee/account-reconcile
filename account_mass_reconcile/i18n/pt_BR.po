@@ -108,12 +108,12 @@ msgid "Action Needed"
 msgstr "Ação Necessária"
 
 #. module: account_mass_reconcile
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.advanced.ref
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_advanced_ref
 msgid "Advanced. Partner and Ref."
 msgstr "Avançado: parceiro e referência"
 
 #. module: account_mass_reconcile
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.advanced.name
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_advanced_name
 msgid "Advanced. Partner and Name."
 msgstr "Avançado: parceiro e nome"
 
@@ -600,19 +600,19 @@ msgstr "Seqüência"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.name
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_name
 msgid "Simple. Amount and Name"
 msgstr "Simples: valor e nome"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.partner
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_partner
 msgid "Simple. Amount and Partner"
 msgstr "Simples: valor e parceiro"
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.reference
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_reference
 msgid "Simple. Amount and Reference"
 msgstr "Simples: valor e referência"
 
