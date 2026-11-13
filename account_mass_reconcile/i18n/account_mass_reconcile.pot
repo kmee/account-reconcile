@@ -104,12 +104,16 @@ msgid "Action Needed"
 msgstr ""
 
 #. module: account_mass_reconcile
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_advanced_ref
+#. odoo-python
+#: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
+#, python-format
 msgid "Advanced. Partner and Ref."
 msgstr ""
 
 #. module: account_mass_reconcile
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_advanced_name
+#. odoo-python
+#: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
+#, python-format
 msgid "Advanced. Partner and Name."
 msgstr ""
 
@@ -573,20 +577,26 @@ msgid "Sequence"
 msgstr ""
 
 #. module: account_mass_reconcile
+#. odoo-python
+#: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_name
+#, python-format
 msgid "Simple. Amount and Name"
 msgstr ""
 
 #. module: account_mass_reconcile
+#. odoo-python
+#: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_partner
+#, python-format
 msgid "Simple. Amount and Partner"
 msgstr ""
 
 #. module: account_mass_reconcile
+#. odoo-python
+#: code:addons/account_mass_reconcile/models/mass_reconcile.py:0
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
-#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass_reconcile_simple_reference
+#, python-format
 msgid "Simple. Amount and Reference"
 msgstr ""
 
