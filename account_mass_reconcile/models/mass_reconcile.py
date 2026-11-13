@@ -71,20 +71,17 @@ class AccountMassReconcileMethod(models.Model):
     _inherit = "mass.reconcile.options"
     _order = "sequence"
 
-    @staticmethod
-    def _get_reconcilation_methods():
-        return [
+    name = fields.Selection(
+        selection=[
             ("mass.reconcile.simple.name", "Simple. Amount and Name"),
             ("mass.reconcile.simple.partner", "Simple. Amount and Partner"),
             ("mass.reconcile.simple.reference", "Simple. Amount and Reference"),
             ("mass.reconcile.advanced.ref", "Advanced. Partner and Ref."),
             ("mass.reconcile.advanced.name", "Advanced. Partner and Name."),
-        ]
-
-    def _selection_name(self):
-        return self._get_reconcilation_methods()
-
-    name = fields.Selection("_selection_name", string="Type", required=True)
+        ],
+        string="Type",
+        required=True,
+    )
     sequence = fields.Integer(
         default=1,
         required=True,

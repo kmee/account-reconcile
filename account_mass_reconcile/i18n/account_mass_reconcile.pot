@@ -104,6 +104,16 @@ msgid "Action Needed"
 msgstr ""
 
 #. module: account_mass_reconcile
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.advanced.ref
+msgid "Advanced. Partner and Ref."
+msgstr ""
+
+#. module: account_mass_reconcile
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.advanced.name
+msgid "Advanced. Partner and Name."
+msgstr ""
+
+#. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
 msgid "Advanced. Partner and Ref"
 msgstr ""
@@ -564,16 +574,19 @@ msgstr ""
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.name
 msgid "Simple. Amount and Name"
 msgstr ""
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.partner
 msgid "Simple. Amount and Partner"
 msgstr ""
 
 #. module: account_mass_reconcile
 #: model_terms:ir.ui.view,arch_db:account_mass_reconcile.account_mass_reconcile_form
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__name__mass.reconcile.simple.reference
 msgid "Simple. Amount and Reference"
 msgstr ""
 
