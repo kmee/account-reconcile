@@ -52,7 +52,11 @@ class MassReconcileOptions(models.AbstractModel):
         check_company=True,
     )
     date_base_on = fields.Selection(
-        "_get_rec_base_date",
+        selection=[
+            ("newest", "Most recent move line"),
+            ("actual", "Today"),
+            ("oldest", "Oldest move line"),
+        ],
         required=True,
         string="Date of reconciliation",
         default="newest",

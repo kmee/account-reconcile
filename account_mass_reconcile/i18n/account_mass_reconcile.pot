@@ -658,3 +658,45 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_mass_reconcile.field_mass_reconcile_simple_reference__write_off
 msgid "Write off allowed"
 msgstr ""
+
+#. module: account_mass_reconcile
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_name__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_ref__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_base__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_options__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_name__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_partner__date_base_on__actual
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_reference__date_base_on__actual
+msgid "Today"
+msgstr ""
+
+#. module: account_mass_reconcile
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_name__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_ref__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_base__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_options__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_name__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_partner__date_base_on__newest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_reference__date_base_on__newest
+msgid "Most recent move line"
+msgstr ""
+
+#. module: account_mass_reconcile
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__account_mass_reconcile_method__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_name__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_advanced_ref__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_base__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_options__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_name__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_partner__date_base_on__oldest
+#: model:ir.model.fields.selection,name:account_mass_reconcile.selection__mass_reconcile_simple_reference__date_base_on__oldest
+msgid "Oldest move line"
+msgstr ""
